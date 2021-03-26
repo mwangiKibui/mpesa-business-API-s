@@ -1,7 +1,7 @@
 require("dotenv").config();
 const axios = require("axios");
 
-class Business {
+class Mpesa {
 
     constructor(){
 
@@ -9,11 +9,6 @@ class Business {
 
     //get access token.
     async getAccessToken(req,res,next){        
-        
-    };
-
-    //Account balance.
-    async accountBalance(req,res,next){
         
     };
 
@@ -57,4 +52,4 @@ class Business {
 
 };
 
-module.exports = Business;
+module.exports = Mpesa;
